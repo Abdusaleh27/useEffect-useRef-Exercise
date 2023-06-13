@@ -1,0 +1,30 @@
+.parent-container {
+  position: relative;
+}
+.card {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -113px;
+  height: 314px;
+  width: 226px;
+}
+
+body {
+  background-color: #308834;
+  color: rgb(235, 224, 224);
+  text-align: center;
+}
+button {
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: cadetblue;
+  border: solid 1px ;
+  border-radius: 3px;
+  height: 25px;
+  color:whitesmoke;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(106, 176, 178);
+}
